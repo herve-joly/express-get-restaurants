@@ -7,7 +7,7 @@ const port = 3000;
 
 //TODO: Create your GET Request Route Below:
 app.use(express.json());
-app.use("/restaurants", Router);
+app.use("/api", Router);
 
 app.listen(port, () => {
   sequelize.sync();
